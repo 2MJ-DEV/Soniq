@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InfinityTech</title>
+    <title>Soniq</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
   <body
-    class="w-screen overflow-x-hidden text-zinc-800 dark:text-zinc-100 duration-300 bg-white dark:bg-zinc-950 relative"
+    class="w-screen overflow-x-hidden text-zinc-800 dark:text-zinc-100 duration-300 bg-white dark:bg-black relative"
   >
     <div
       class="fixed hidden lg:block lg:dark:block bg-gradient-to-b dark:from-blue-600 dark:via-blue-900/50 to-transparent blur-3xl size-[60rem] lg:left-[15%] rounded-full lg:-top-[90%] z-0"
@@ -19,7 +19,7 @@
     <!-- Le header plus la navigation mobile et pc -->
     <header
       id="header"
-      class="fixed w-screen left-0 z-50 bg-white/80 lg:bg-transparent dark:bg-zinc-950/80 lg:dark:bg-transparent lg:backdrop-blur-none right-0 group p-3 px-8 lg:px-6 border-b lg:border-none lg:w-[75vw] lg:mx-auto border-dashed border-zinc-950/5 dark:border-white/5 duration-300 lg:top-4"
+      class="fixed w-screen left-0 z-50 bg-white/80 lg:bg-transparent dark:bg-zinc-950/80 lg:dark:bg-transparent lg:backdrop-blur-none right-0 group p-3 px-8 lg:px-6 border-b lg:border-none lg:w-[75vw] lg:mx-auto border-double border-zinc-950/5 dark:border-white/5 duration-300 lg:top-4"
     >
       <!-- Nav overlay -->
 
@@ -31,13 +31,15 @@
             class="text-lg font-light flex gap-1 items-center"
           >
             <span class="h-max grid place-content-center">
-              <i class="bx bx-infinite text-4xl"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5" />
+              </svg>
             </span>
             <div class="hidden lg:block">
-              <span class=""
-                >infinity<span class="text-blue-700 font-semibold"
-                  >Tech</span
-                ></span
+              <span class="font-semibold"
+                >Soniq</span
               >
             </div>
           </a>
@@ -114,7 +116,7 @@
               class="w-0.5 hidden lg:flex h-6 bg-zinc-950/10 dark:bg-white/10 rounded-full"
             ></div>
 
-            <button id="toggleButton" class="p-2 pl-4 hover:cursor-pointer">
+            <button id="toggleButton" class="p-2 pl-4 hover:cursor-pointer" title="Toggle Theme">
               <svg
                 id="moonIcon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -647,30 +649,27 @@
     </main>
     <!-- Le footer de la page -->
     <footer
-      class="footer py-8 lg:h-[60vh] border-t border-dashed border-zinc-950/10 dark:border-white/5 relative overflow-hidden"
+      class="footer py-8 lg:h-[60vh] border-t border-double border-zinc-950/10 dark:border-white/5 relative overflow-hidden"
     >
       <div
-        class="container relative z-40 mx-auto px-4 mt-4 h-full flex flex-col justify-between"
+        class="container relative z-40 mx-auto px-4 mt-4 h-full flex flex-col justify-end"
       >
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-2"
         >
           <div class="lg:col-span-2">
             <!-- logo officiel du site -->
             <div class="">
-              <a
-                href="/index.html"
-                class="text-lg font-light flex gap-1 items-center"
-              >
+              <a href="/index.html" class="text-lg font-light flex gap-1 items-center">
                 <span class="h-max grid place-content-center">
-                  <i class="bx bx-infinite text-4xl"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5" />
+                  </svg>
                 </span>
-                <div>
-                  <span class=""
-                    >infinity<span class="text-blue-700 font-semibold"
-                      >Tech</span
-                    ></span
-                  >
+                <div class="hidden lg:block">
+                  <span class="font-semibold">Soniq</span>
                 </div>
               </a>
             </div>
@@ -699,15 +698,15 @@
                 <a
                   class="dark:text-white/70 text-zinc-800 font-light"
                   href="mailto:info@gmailcom"
-                  >info@gmailcom</a
+                  >julesmukadi.dev@gmailcom</a
                 >
               </div>
               <div>
                 <span>Phone :</span>
                 <a
                   class="dark:text-white/70 text-zinc-800 font-light"
-                  href="tel:+243 822717275"
-                  >+243 822717275</a
+                  href="tel:+243 837449954"
+                  >+243 837 449 954</a
                 >
               </div>
             </div>
@@ -716,7 +715,7 @@
 
         <div>
           <hr
-            class="mt-10 border-zinc-950/10 dark:border-white/5 border-dashed"
+            class="mt-10 border-zinc-950/10 dark:border-white/5 border-double"
           />
 
           <div
@@ -728,6 +727,8 @@
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
+                    rel="noopener"
+                    title="Visit our Facebook page"
                     class="text-2xl"
                   >
                     <ion-icon name="logo-facebook"></ion-icon>
@@ -737,6 +738,8 @@
                   <a
                     href="https://www.twitter.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    title="Visit our Twitter page"
                     class="text-2xl"
                   >
                     <ion-icon name="logo-twitter"></ion-icon>
@@ -746,6 +749,8 @@
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    title="Visit our Instagram page"
                     class="text-2xl"
                   >
                     <ion-icon name="logo-instagram"></ion-icon>
@@ -755,6 +760,8 @@
                   <a
                     href="https://www.linkedin.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    title="Visit our LinkedIn page"
                     class="text-2xl"
                   >
                     <ion-icon name="logo-linkedin"></ion-icon>
@@ -766,7 +773,7 @@
               class="dark:text-white/60 font-light mt-2 lg:mt-0 text-center lg:text-left"
             >
               <p>
-                Copyright &copy; 2025 INFINITY-TECH. <br class="lg:hidden" />
+                Copyright &copy; 2025 <a href="http://julesmukadi.me">2MJ-DEV</a>. <br class="lg:hidden" />
                 Tous droits réservés.
               </p>
             </div>
